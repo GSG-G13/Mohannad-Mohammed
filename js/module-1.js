@@ -16,7 +16,7 @@ const component = function (obj) {
     <h4 class='title'>${title}</h4>
     <span class='details'><span>More Details</span><i class="fa-regular fa-square-caret-down collapse"></i></span>
     </div>
-    <div class='card__body'>
+    <div class='card__body hidden'>
       <img class='image'src=${imageUrl} alt =''>
       <p class='content'>${content}</p>
     </div>
