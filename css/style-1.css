@@ -5,8 +5,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+  display: flex;
+}
 body {
   font-family: "Poppins", sans-serif;
+}
+.containers {
+  position: relative;
+  overflow-y: scroll;
+  height: 100vh;
+}
+#news-container-1,
+#news-container-2 {
+  position: absolute;
+  width: 100%;
 }
 
 img {
@@ -141,7 +155,7 @@ nav {
   justify-self: end;
 }
 .date {
-  top:0px;
+  top: 0px;
   position: absolute;
   grid-row: 3/4;
   left: 0;
@@ -159,6 +173,13 @@ footer {
   height: 300px;
 }
 @media screen and (max-width: 620px) {
+  .title {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  #search {
+    width: 300px;
+  }
   .content {
     font-size: 13px;
     text-align: justify;
@@ -188,5 +209,4 @@ footer {
 
 .test {
   font-size: 70px;
-
 }
