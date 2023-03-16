@@ -29,15 +29,14 @@ img {
   border-radius: 10px;
 }
 
-.technology:hover {
-  background-color: rgb(228, 228, 228);
-  border-radius: 5px;
-  color: black;
+.technology,
+.science {
+  height: 100%;
+  padding: 32px;
 }
-
-.science:hover {
+.technology:hover, .science:hover {
   background-color: rgb(228, 228, 228);
-  border-radius: 5px;
+  
   color: black;
 }
 
